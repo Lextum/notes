@@ -2,3 +2,10 @@ site_name: My personal notes
 
 theme:
   name: material
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+
+plugins:
+  - search
